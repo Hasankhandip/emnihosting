@@ -23,6 +23,18 @@
         visibility: hidden;
         overflow: hidden;
     }
+    .phn-gmail{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail-1{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
 }
 @media(max-width:1200px){
     .edu-icon {
@@ -203,6 +215,30 @@
         overflow:visible;
     }
     .google{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail{
+        display:block;
+        opacity: 1;
+        visibility: visible;
+        overflow:visible;
+    }
+    .pc-gmail{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail-1{
+        display:block;
+        opacity: 1;
+        visibility: visible;
+        overflow:visible;
+    }
+    .pc-gmail-1{
         display: none !important;
         opacity: 0;
         visibility: hidden;
