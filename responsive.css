@@ -333,4 +333,8 @@
     .footer-text p {
         font-size: 10px;
     }
+    .nav-btn {
+        position: relative;
+        left: -55px;
+    }
 }
