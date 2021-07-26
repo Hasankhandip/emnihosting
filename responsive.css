@@ -347,14 +347,14 @@
     }
     .check {
         top: -43px;
-        right:30px;
+        right:30px !important;
     }
     .three-dot i {
         top: -46px;
-        right:30px;
+        right:30px !important;
     }
     .cross {
         top: -48px;
-        right:30px;
+        right:30px !important;
     }
 }
