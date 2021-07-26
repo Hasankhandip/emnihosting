@@ -262,7 +262,7 @@
         display: none;
         opacity: 0;
         visibility: hidden;
-        overflow:hidden;
+        overflow: hidden;
     }
     .education-details ul li {
         width: 100%;
