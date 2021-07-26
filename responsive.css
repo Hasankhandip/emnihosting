@@ -17,6 +17,12 @@
         opacity: 0;
         visibility: hidden;
     }
+    .gmail_mobile{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
 }
 @media(max-width:1200px){
     .edu-icon {
@@ -183,18 +189,30 @@
         margin-top:10px;
         color: #fff;
         }
-     .whatsapp_float {
+    .whatsapp_float {
         width: 50px;
         height: 50px;
         bottom: 38px;
         right: 35px;
         font-size: 30px;
     }
+    .gmail_mobile{
+        display:flex !important;
+        opacity: 1;
+        visibility:visible;
+        overflow:visible;
+    }
+    .google{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
 }
 @media(max-width:576px){
     .header-logo a {
         position: relative;
-        left:25px;
+        left: 40px;
     }
     .check {
         top: -43px;
@@ -347,14 +365,14 @@
     }
     .check {
         top: -43px;
-        right:30px !important;
+        right:30px;
     }
     .three-dot i {
         top: -46px;
-        right:30px !important;
+        right:30px;
     }
     .cross {
         top: -48px;
-        right:30px !important;
+        right:30px;
     }
 }
