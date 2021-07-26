@@ -333,8 +333,16 @@
     .footer-text p {
         font-size: 10px;
     }
-    .nav-btn {
-        position: relative;
-        left: -55px;
+    .check {
+        top: -43px;
+        right: 96px;
+    }
+    .three-dot i {
+        top: -46px;
+        right: 96px;
+    }
+    .cross {
+        top: -48px;
+        right: 98px;
     }
 }
