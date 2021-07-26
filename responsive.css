@@ -183,7 +183,6 @@
 @media(max-width:576px){
     .header-logo a {
         position: relative;
-        left: 40px;
     }
     .check {
         top: -43px;
